@@ -36,3 +36,5 @@ runBandiFirefox.exe
 ```
 
 레코딩을위해서 "Stereo Mix"가 Enable되어 있어야 합니다.
+
+![Stereo Mix](stereoMix.jpg)
