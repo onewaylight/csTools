@@ -30,3 +30,9 @@ ffmpeg 파일의 정확한 위치를 알려주어야 합니다.
 ```
 D:\Record\ffmpeg\bin\ffmpeg -t %RECORDING_SECS% -y -f dshow -i audio=%DEVICE_NAME% %MP3_FILE_NAME%
 ```
+
+```shell
+runBandiFirefox.exe
+```
+
+레코딩을위해서 "Stereo Mix"가 Enable되어 있어야 합니다.
