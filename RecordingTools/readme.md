@@ -31,6 +31,12 @@ ffmpeg 파일의 정확한 위치를 알려주어야 합니다.
 D:\Record\ffmpeg\bin\ffmpeg -t %RECORDING_SECS% -y -f dshow -i audio=%DEVICE_NAME% %MP3_FILE_NAME%
 ```
 
+파이어폭스 실행후 EBS 반디 홈페이지로 이동해서 재생합니다.
+
+사용자 개입없이 자동으로 오디오가 재생됩니다.
+
+안될 경우 파이어폭스의 옵션중 실행후 자동으로 Audio로 재생하도록 하는 옵션이 있습니다.
+
 ```shell
 runBandiFirefox.exe
 ```
@@ -44,3 +50,11 @@ runBandiFirefox.exe
 ASUS 나 GigaByte 메인보드의 Audio Driver설치이후 나타남을 확인했습니다.
 
 Stereo Mix가 나타나지 않는 경우 검색해 보시면 많은 자료들이 있으니 적절한 자료를 찾아서 시도해보세요~ ^^
+
+EBS의 본방 라디오와 재방송인 반디의 재생 주소가 다릅니다.
+
+조금 귀찮아서 실행파일을 별도로 만들어 두었는데 본방일 경우 반디일 경우 샐행파일을 달리하시면 됩니다.
+
+저는 작업스케쥴러에 등록해서 매일 녹음을 해두었다가 다시 듣곤 합니다.
+
+작업스케쥴러 등록은 간단하게 하실 수 있습니다. 
