@@ -38,3 +38,9 @@ runBandiFirefox.exe
 레코딩을위해서 "Stereo Mix"가 Enable되어 있어야 합니다.
 
 ![Stereo Mix](stereoMix.jpg)
+
+"Stereo Mix"가 없을 경우 사운도카드의 드라이버를 설치하게 되면 나타납니다.
+
+ASUS 나 GigaByte 메인보드의 Audio Driver설치이후 나타남을 확인했습니다.
+
+Stereo Mix가 나타나지 않는 경우 검색해 보시면 많은 자료들이 있으니 적절한 자료를 찾아서 시도해보세요~ ^^
