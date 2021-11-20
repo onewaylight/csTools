@@ -1,12 +1,24 @@
 
 ### EBS 반디 레코딩 Tools
 
+준비물
+
+작업 스케쥴러
+
+![image](https://user-images.githubusercontent.com/627053/142718358-96a69aad-e7ee-4f66-a2c2-24815005cff8.png)
+
 ffmpeg.exe가 필요합니다.
 
 [이곳에서](https://www.ffmpeg.org/) 다운로드 받으실 수 있습니다.
 
 ```shell
 recRun.bat 7200 
+```
+
+사용할 수 있는 장치를 리스트업 하여 스테레오 믹스Stereo Mix)를 사용할 수 있는지 확인합니다.
+
+```shell
+C:\ffmpeg\bin\ffmpeg -list_devices true -f dshow -i dummy
 ```
 
 두시간 동안 녹음을 진행한 후 자동으로 종료합니다.
