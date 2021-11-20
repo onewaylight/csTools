@@ -1,15 +1,18 @@
-
 ### EBS 반디 레코딩 Tools
 
 준비물
 
-작업 스케쥴러
+- ffmpeg.exe
+- - [이곳에서](https://www.ffmpeg.org/) 다운로드 받으실 수 있습니다.
+- 윈도우즈 10, 작업 스케쥴러 : 예약을 해서 녹음을 하고 싶은 경우 필요합니다.
+  [윈도우즈] + [S] 을 누르시고 "작업 스케쥴러"라고 입력하시면 실행하실 수 있습니다.
+  ![image](https://user-images.githubusercontent.com/627053/142718624-b904db4f-859e-42d2-9bca-09d189da9e95.png)
 
 ![image](https://user-images.githubusercontent.com/627053/142718358-96a69aad-e7ee-4f66-a2c2-24815005cff8.png)
 
 ffmpeg.exe가 필요합니다.
 
-[이곳에서](https://www.ffmpeg.org/) 다운로드 받으실 수 있습니다.
+
 
 ```shell
 recRun.bat 7200 
