@@ -12,11 +12,8 @@
   
   <img src="https://user-images.githubusercontent.com/627053/142718624-b904db4f-859e-42d2-9bca-09d189da9e95.png" width="500" height="407">
 
-![image](https://user-images.githubusercontent.com/627053/142718358-96a69aad-e7ee-4f66-a2c2-24815005cff8.png)
+  <img src="https://user-images.githubusercontent.com/627053/142718358-96a69aad-e7ee-4f66-a2c2-24815005cff8.png" width="500" height="311">
 
-
-
-ffmpeg.exe가 필요합니다.
 
 
 
