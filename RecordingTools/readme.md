@@ -18,28 +18,27 @@
 
 ### 순서
 
-ffmpeg 프로그램을 다운로드합니다.
-
-
-```shell
-recRun.bat 7200 
-```
-
 사용할 수 있는 장치를 리스트업 하여 스테레오 믹스Stereo Mix)를 사용할 수 있는지 확인합니다.
 
 ```shell
 C:\ffmpeg\bin\ffmpeg -list_devices true -f dshow -i dummy
 ```
 
-두시간 동안 녹음을 진행한 후 자동으로 종료합니다.
+recRun.bat파일을 열어 스테레오 믹스의 정확한 명칭을 입력합니다.
 
-숫자는 초를 의미합니다.
+```SET DEVICE_NAME="스테레오 믹스(Realtek(R) Audio)"```
 
+입력완료후 다음과 같이 Command창에서 입렵합니다.
+
+```shell
+recRun.bat 60  
+```
+- 60은 초단위이며 실행후 녹음을 바로 진행하며 60초후에 자동으로 종료됩니다.
 - 10분은 600
 - 1시간은 3600
 - 2시간은 7200 입니다
 
-현재 작업 디렉토리는 ```D:\Record\ffmpeg\bin\``` 입니다.
+batch 파일을 편집해서 작업 디렉토리를 올바로 입력하세요!
 
 녹음 파일의 저장위치는 MP3_FILE_NAME의 내용을 수정하시면 됩니다.
 
