@@ -1,6 +1,6 @@
 ### EBS 반디 레코딩 Tools
 
-준비물
+### 준비물
 
 - ffmpeg.exe
 
@@ -12,9 +12,13 @@
   
   <img src="https://user-images.githubusercontent.com/627053/142718624-b904db4f-859e-42d2-9bca-09d189da9e95.png" width="500" height="407">
 
+  > 작업 스케쥴러 화면
   <img src="https://user-images.githubusercontent.com/627053/142718358-96a69aad-e7ee-4f66-a2c2-24815005cff8.png" width="500" height="311">
 
 
+### 순서
+
+ffmpeg 프로그램을 다운로드합니다.
 
 
 ```shell
